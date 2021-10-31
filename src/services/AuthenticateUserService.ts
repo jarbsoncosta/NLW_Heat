@@ -26,7 +26,7 @@ interface IUserResponse {
     name: string
 }
 
-class AuthenticateUserServices {
+class AuthenticateUserService {
 
     async execute(code: string) {
         //recuperando token do usuario
@@ -90,4 +90,4 @@ class AuthenticateUserServices {
 
 }
 
-export { AuthenticateUserServices }
+export { AuthenticateUserService }

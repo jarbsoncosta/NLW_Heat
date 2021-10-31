@@ -1,11 +1,11 @@
 import { Request, Response } from "express";
-import { AuthenticateUserServices } from "../services/AuthenticateUserServices";
+import { AuthenticateUserService } from "../services/AuthenticateUserService";
 
 
 
 class AuthenticateUserController {
   async handle(request: Request, response: Response) {
-    const authenticateUserServices = new AuthenticateUserServices()
+    const authenticateUserServices = new AuthenticateUserService()
     try {
       const { code } = request.body
 

@@ -6,7 +6,7 @@
   "author": "jarbsoncosta <jarbsonfc@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node-dev --exit-child src/app.ts"
+    "dev": "ts-node-dev --inspect --transpile-only --ignore-watch --exit-child src/app.ts"
   },
   "devDependencies": {
     "@types/axios": "^0.14.0",
